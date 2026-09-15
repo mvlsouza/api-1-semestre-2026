@@ -1,8 +1,8 @@
 import os
 from pathlib import Path
 from dotenv import load_dotenv
-from bot.telegram_bot import iniciar_bot
 from config import verificacao_ambiente
+from src.bot.telegram_bot import iniciar_bot
 
 # Verifica se os módulos estão baixados corretamente
 verificacao_ambiente()
